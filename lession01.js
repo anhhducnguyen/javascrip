@@ -9,7 +9,7 @@ const age = 21;
 // phạm vi hoạt động của biến
 // const không gán lại giá trị mới 
 
-
-number; 
+// gán lại biến
+number = 20; 
 full_name;
 age;
