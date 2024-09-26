@@ -1,4 +1,3 @@
-// alert("Hello python");
 
 // 1. Biến
 var number= 10;
@@ -12,13 +11,28 @@ const age = 21;
 // gán lại biến
 number = 20; 
 fullName;
-age = 25;
-
 // lỗi tại dòng 15 do gán lại biến do gán lại biến cho giá trị const
 // Uncaught TypeError: Assignment to constant variable.
 // at lession01.js:15:5
 
 // => từ khóa + tên biến = giá trị
+
+
+let number1 = 10;
+let number2 = -2;
+let number3 = 20.5;
+
+// Toán tử 
+alert(number1 + number2);
+
+number1 - number2;
+number1 * number2;
+number1 / number2;
+number1 % number2;
+number1 ** number2;
+
+
+
 
 
 
