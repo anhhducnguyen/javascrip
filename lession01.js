@@ -48,6 +48,7 @@ let is_Turn = false
 // alert(1==1)
 // alert(1!=1)
 
+// phép so sánh tương đối ==
 alert(1 == "1");
 // lỏng lẻo 2 vế có giá trị là 1 bỏ qua khác kiểu data
 
