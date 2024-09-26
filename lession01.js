@@ -52,6 +52,9 @@ let is_Turn = false
 // alert(1 == "1");
 // lỏng lẻo 2 vế có giá trị là 1 bỏ qua khác kiểu data
 
+// mệnh đề so sánh 3 dấu bằng nên dùng
+aler(1==="1");
+
 
 
 
