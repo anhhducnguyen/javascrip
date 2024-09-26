@@ -23,13 +23,25 @@ let number2 = -2;
 let number3 = 20.5;
 
 // Toán tử 
-alert(number1 + number2);
+// alert(number1 + number2);
 
 number1 - number2;
 number1 * number2;
 number1 / number2;
 number1 % number2;
 number1 ** number2;
+
+let ho = "Nguyen";
+let tenDem = 'Duc';
+let ten = `Anh
+Nguyen`;
+
+// `` có thể xuống dòng bất cứ khi nào
+
+alert(ho);
+alert(tenDem);
+alert(ten);
+
 
 
 
