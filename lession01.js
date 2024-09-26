@@ -33,14 +33,11 @@ number1 ** number2;
 
 let ho = "Nguyen";
 let tenDem = 'Duc';
-let ten = `Anh
-Nguyen`;
+let ten = `Anh`;
 
 // `` có thể xuống dòng bất cứ khi nào
 
-alert(ho);
-alert(tenDem);
-alert(ten);
+alert(ho+tenDem+ten)
 
 
 
