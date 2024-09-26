@@ -39,7 +39,7 @@ let ten = `Anh`;
 
 // alert(ho + " " + tenDem + " " + ten)
 
-alert(`${ho} ${tenDem} ${ten}`);
+// alert(`${ho} ${tenDem} ${ten}`);
 
 
 let is_Turn = false
@@ -52,8 +52,8 @@ let is_Turn = false
 // alert(1 == "1");
 // lỏng lẻo 2 vế có giá trị là 1 bỏ qua khác kiểu data
 
-// mệnh đề so sánh 3 dấu bằng nên dùng
-aler(1==="1");
+// phép so sánh tuyệt đối mệnh đề so sánh 3 dấu bằng nên dùng
+alert(1 ==="1");
 
 
 
