@@ -53,8 +53,11 @@ let is_Turn = false
 // lỏng lẻo 2 vế có giá trị là 1 bỏ qua khác kiểu data
 
 // phép so sánh tuyệt đối mệnh đề so sánh 3 dấu bằng nên dùng
-alert(1 ==="1");
+// alert(1 ==="1");
 
+
+// toán tử phủ đinh 
+alert(!(1>1));
 
 
 
