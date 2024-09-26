@@ -62,20 +62,27 @@ let is_Turn = false
 
 // cấu trúc rẽ nhánh
 
-var input = prompt("Hãy nhập vào số: ");
+// var input = prompt("Hãy nhập vào số: ");
 
-// console.log("a")
+// // console.log("a")
 
-var result = 50
+// var result = 50
 
-if (input < result) {
-    console.log("Bé quá!");
-} else if (input > result) {
-    console.log("Lớn quá!");
-} else{
-    console.log("Bingo!");
-}
+// if (input < result) {
+//     console.log("Bé quá!");
+// } else if (input > result) {
+//     console.log("Lớn quá!");
+// } else{
+//     console.log("Bingo!");
+// }
 
 
+
+let a = +prompt("Hãy nhập vào số a");
+let b = +prompt("Hãy nhập vào số b");
+
+
+
+console.log(a+b);
 
 
