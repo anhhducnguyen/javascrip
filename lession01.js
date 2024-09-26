@@ -60,5 +60,16 @@ let is_Turn = false
 alert(!(1>1));
 
 
+// cấu trúc rẽ nhánh
+
+if () {
+
+} else if () {
+    
+} else {
+
+}
+
+
 
 
