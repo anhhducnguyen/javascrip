@@ -37,9 +37,19 @@ let ten = `Anh`;
 
 // `` có thể xuống dòng bất cứ khi nào
 
-alert(ho +' '+ tenDem+ ' ' + ten)
+// alert(ho + " " + tenDem + " " + ten)
+
+// alert(`${ho} ${tenDem} ${ten}`);
 
 
+let is_Turn = false
+
+// mệnh đề so sánh
+// alert(1==1)
+// alert(1!=1)
+
+alert(1 == "1");
+// lỏng lẻo 2 vế có giá trị là 1 bỏ qua khác kiểu data
 
 
 
