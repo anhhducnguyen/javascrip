@@ -57,17 +57,23 @@ let is_Turn = false
 
 
 // toán tử phủ đinh 
-alert(!(1>1));
+// alert(!(1>1));
 
 
 // cấu trúc rẽ nhánh
 
-if () {
+var input = prompt("Hãy nhập vào số: ");
 
-} else if () {
-    
-} else {
+// console.log("a")
 
+var result = 50
+
+if (input < result) {
+    console.log("Bé quá!");
+} else if (input > result) {
+    console.log("Lớn quá!");
+} else{
+    console.log("Bingo!");
 }
 
 
