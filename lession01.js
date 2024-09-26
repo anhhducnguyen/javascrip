@@ -37,7 +37,7 @@ let ten = `Anh`;
 
 // `` có thể xuống dòng bất cứ khi nào
 
-alert(ho+tenDem+ten)
+alert(ho +' '+ tenDem+ ' ' + ten)
 
 
 
