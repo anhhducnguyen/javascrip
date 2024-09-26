@@ -11,12 +11,14 @@ const age = 21;
 
 // gán lại biến
 number = 20; 
-full_name;
+fullName;
 age = 25;
 
 // lỗi tại dòng 15 do gán lại biến do gán lại biến cho giá trị const
 // Uncaught TypeError: Assignment to constant variable.
 // at lession01.js:15:5
+
+// => từ khóa + tên biến = giá trị
 
 
 
