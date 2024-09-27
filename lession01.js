@@ -78,11 +78,13 @@ let is_Turn = false
 
 
 
-let a = +prompt("Hãy nhập vào số a");
-let b = +prompt("Hãy nhập vào số b");
+// let a = +prompt("Hãy nhập vào số a");
+// let b = +prompt("Hãy nhập vào số b");
 
 
 
-console.log(a+b);
+// console.log(a+b);
+
+
 
 
