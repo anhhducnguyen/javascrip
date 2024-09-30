@@ -1,7 +1,7 @@
 // Nhập 3 số từ người dùng
-let a = +(prompt("Nhập số a: "));
-let b = +(prompt("Nhập số b: "));
-let c = +(prompt("Nhập số c: "));
+let a = +prompt("Nhập số a: ");
+let b = +prompt("Nhập số b: ");
+let c = +prompt("Nhập số c: ");
 
 // Khởi tạo biến max và tìm số lớn nhất
 let max = a;
