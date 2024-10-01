@@ -19,13 +19,20 @@ console.log("Vòng lặp hoạt động hàng ngày");
 //     console.log(`So sánh i= ${i} và điều kiện i < 7 (${i} < 7)  => true => thực hiện khối lệnh trong vòng for`);
 // }
 
+// Cho người dùng nhập vào một số n tính tổng dãy số
+// Tính tổng dãy số b = 1**2 + 2**2 + 3**2 +
+// Tính tổng dãy 1/n 
 
-for(let i = 1; i <= 14; i = i+2){
-    console.log(i);
-    console.log("Thức dậy");
-    console.log("Hoạt động");
-    console.log("Đi ngủ");    
+let n = +prompt("Nhập vào số n: ")
+
+let sum = 0;
+for(let i = 0; i <= n; i = i+1){
+    console.log(i); 
+    sum = sum + i;
 }
+
+console.log(`Tổng của ${n} là ${sum}`);
+
 
 
 
