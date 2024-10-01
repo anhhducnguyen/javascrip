@@ -1,5 +1,6 @@
 var month = +prompt("Hãy nhập vào tháng (1-12): ");
 
+
 function dateDisplay(month){
     if (month == 2) {
         console.log(`Tháng ${month} có 28 hoặc 29 ngày.`);
