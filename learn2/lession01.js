@@ -12,7 +12,7 @@ console.log("Vòng lặp hoạt động hàng ngày");
 // }
 
 for(let i = 1; i <=7; i = i + 1){
-    console.log(`So sánh i=1 và điều kiện i <= ${i} => true => thực hiện khối lệnh trong vòng for`);
+    console.log(`So sánh i= ${i} và điều kiện i <= 7  => true => thực hiện khối lệnh trong vòng for`);
 }
 
 
