@@ -42,22 +42,46 @@ let studentLists = [
 //     console.log(+index + 1, studentLists[index]);
 // }
 // Thêm vào đầu
-studentLists.unshift("Nguyen Van Dau")
+// studentLists.unshift("Nguyen Van Dau")
+// console.log(studentLists);
+
+
+// // Thêm vào cuối
+// studentLists.push("Nguyen Van Cuoi");
+// console.log(studentLists);
+
+
+// // Thêm vị trí bất kì 
+// studentLists.splice(4, 0, "Nguyen Van Giua");
+// console.log(studentLists);
+
+
+// // Cập nhật
+// studentLists[5] = "Nguyen Van Nhat";
+// console.log(studentLists);
+
+
+// Xóa
+console.log("Mảng ban đầu");
 console.log(studentLists);
 
 
-// Thêm vào cuối
-studentLists.push("Nguyen Van Cuoi");
+// Xóa đầu 
+console.log("Mảng sau khi xóa phần tử đầu");
+studentLists.shift();
 console.log(studentLists);
 
 
-// Thêm vị trí bất kì 
-studentLists.splice(4, 0, "Nguyen Van Giua");
+// Xóa cuối 
+console.log("Mảng sau khi xóa phần tử cuối");
+studentLists.pop();
 console.log(studentLists);
 
-
-// Cập nhật
-studentLists[5] = "Nguyen Van Nhat";
+console.log("Mảng sau khi xóa tại vị trí bất kỳ");
+// Xóa tại vị trí bất kỳ
+// index: vị trí phần tử muốn xóa
+// number: số lượng phần tử muốn xóa
+studentLists.splice(1, 2);
 console.log(studentLists);
 
 
