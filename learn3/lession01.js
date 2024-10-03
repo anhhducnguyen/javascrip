@@ -56,6 +56,9 @@ studentLists.splice(4, 0, "Nguyen Van Giua");
 console.log(studentLists);
 
 
+// Cập nhật
+studentLists[5] = "Nguyen Van Nhat";
+console.log(studentLists);
 
 
 
