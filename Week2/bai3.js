@@ -5,7 +5,7 @@ let isPrime = false;  // Khai báo biến isPrime bên ngoài để tránh lỗi
 if (input < 2) {
     console.log(`${input} không phải số nguyên tố`);
 } else {
-    isPrime = true;  // Giả sử số đó là nguyên tố
+    isPrime = true; 
     let check = Math.sqrt(input);
 
     for (let i = 2; i <= check; i++) {
