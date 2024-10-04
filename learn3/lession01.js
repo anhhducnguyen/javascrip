@@ -61,28 +61,29 @@ let studentLists = [
 // console.log(studentLists);
 
 
-// Xóa
-console.log("Mảng ban đầu");
-console.log(studentLists);
+// // Xóa
+// console.log("Mảng ban đầu");
+// console.log(studentLists);
 
 
-// Xóa đầu 
-console.log("Mảng sau khi xóa phần tử đầu");
-studentLists.shift();
-console.log(studentLists);
+// // Xóa đầu 
+// console.log("Mảng sau khi xóa phần tử đầu");
+// studentLists.shift();
+// console.log(studentLists);
 
 
-// Xóa cuối 
-console.log("Mảng sau khi xóa phần tử cuối");
-studentLists.pop();
-console.log(studentLists);
+// // Xóa cuối 
+// console.log("Mảng sau khi xóa phần tử cuối");
+// studentLists.pop();
+// console.log(studentLists);
 
-console.log("Mảng sau khi xóa tại vị trí bất kỳ");
-// Xóa tại vị trí bất kỳ
-// index: vị trí phần tử muốn xóa
-// number: số lượng phần tử muốn xóa
-studentLists.splice(1, 2);
-console.log(studentLists);
+// console.log("Mảng sau khi xóa tại vị trí bất kỳ");
+// // Xóa tại vị trí bất kỳ
+// // index: vị trí phần tử muốn xóa
+// // number: số lượng phần tử muốn xóa
+// studentLists.splice(1, 2);
+// console.log(studentLists);
+
 
 
 
