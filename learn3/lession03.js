@@ -13,3 +13,10 @@ for (let i = 0; i < arr.length; i++) {
 }
 
 console.log("test");
+
+for (const key in object) {
+    if (Object.prototype.hasOwnProperty.call(object, key)) {
+        const element = object[key];
+        
+    }
+}
