@@ -20,3 +20,7 @@ for (const key in object) {
         
     }
 }
+
+for (const element of object) {
+    
+}
