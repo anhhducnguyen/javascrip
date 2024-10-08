@@ -10,5 +10,4 @@ for (let i = 0; i < str.length; i++) {
     }
 }
 
-// In ra mảng chứa các chuỗi con
 console.log(substrings);
