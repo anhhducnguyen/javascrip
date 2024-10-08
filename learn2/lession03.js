@@ -1,6 +1,6 @@
 
 let result = 50;
-let loop = true
+let loop = true;
 
 
 while(loop){
