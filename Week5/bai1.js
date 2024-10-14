@@ -5,31 +5,24 @@ class Book {
     }
 }
 
-let Books = [
+
+let books = [
     new Book('Nguyen Van A', 'Book 1'),
     new Book('Nguyen Van B', 'Book 2'),
     new Book('Nguyen Van C', 'Book 3'),
-    new Book('Nguyen Van D', 'Book 4'),
-    new Book('Nguyen Van B', 'Book 5'),
-    new Book('Nguyen Van F', 'Book 6')
+    new Book('Nguyen Van A', 'Book 4'),
 ];
 
+let authorInput = "Nguyen Van A";
 
-// let inputName = +prompt("Nhập tên Author").toLocaleUpperCase();
-let inputName = "Nguyen Van D";
-let formatName = inputName.toLocaleUpperCase();
+// sử dụng filter thay vì find vì trả về tất cả
+let foundBook = books.filter(book => book.author.toUpperCase() == authorInput.toUpperCase());
 
-function display(){
-    let found = false;
-    for (let index in Books) {
-        if (Books[index].author.toLocaleUpperCase() == formatName) {
-            console.log(Books[index].name);
-            found = true;
-        }
-    }
-    if (!found) {
-        console.log("Khong tim thay sach");
-    }
+
+if (foundBook.length > 0) {
+    foundBook.forEach(book => {
+        console.log(`${book.name} - ${book.author}`);
+    })
+} else {
+    console.log("Khong tim thay sach");
 }
-
-display();
