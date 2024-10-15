@@ -1,7 +1,11 @@
 // Bài 5 : Tạo một mảng gồm 3 nhân viên Rikkei Academy (tên nhân viên).
 // Xây dựng chương trình quản lý nhân viên với các chức năng (Read, Create, Update, Delete). (2đ)
 
-let employee = ["Nguyen Van A", "Nguyen Van B", "Nguyen Van C"];
+let employee = [
+    "Nguyen Van A", 
+    "Nguyen Van B", 
+    "Nguyen Van C"
+];
 
 function displayEmployee() {
   for (let index in employee) {

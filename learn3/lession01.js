@@ -41,6 +41,8 @@ let studentLists = [
 // for (let index in studentLists) {
 //     console.log(+index + 1, studentLists[index]);
 // }
+
+
 // Thêm vào đầu
 // studentLists.unshift("Nguyen Van Dau")
 // console.log(studentLists);
